@@ -1,10 +1,6 @@
 import logo from "./assets/logo.svg";
 import { SpendingBar } from "./SpendingBar";
 
-const chartSize = {
-  width: 375,
-};
-
 const data = [
   {
     day: "mon",
@@ -38,10 +34,7 @@ const data = [
 
 export function Chart() {
   return (
-    <div
-      /*    style={chartSize} */
-      className="d-flex flex-column justify-content-center align-items-center gap-3 container mx-auto col-md-6 my-5"
-    >
+    <div className="d-flex flex-column justify-content-center align-items-center gap-3 container mx-auto col-md-6 my-5">
       <div className="d-flex justify-content-between balance-container p-3 w-100 container">
         <div className="d-flex flex-column mx-3 gap-2">
           <p className="text-light m-0">My balance</p>
